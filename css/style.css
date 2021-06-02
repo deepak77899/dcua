@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+.hero-section {
+  background: url("../images/jane-last-k60YOEjB75k-unsplash.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+}
+.obli-font {
+  font-family: "Odibee Sans", cursive;
+  font-size: 2rem;
+}
+.hero-left {
+  display: grid;
+  place-items: center;
+  padding-top: 10rem;
+}
+.hero-btns button:nth-child(2) {
+  margin-left: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.about-img {
+  width: 60%;
+  border-radius: 5px;
+}
+.about-section,
+.news-section {
+  padding-top: 3rem;
+}
+.about-s-heading {
+  margin-top: 2rem;
+}
+.card-body {
+  height: 180px;
+}
+.card-img-top {
+  height: 187px;
+}
+/* .email{
+    background: ;
+} */
+.footer {
+  color: white;
+  padding-top: 100px;
+  margin-top: 50px;
+  background: linear-gradient(90deg, rgba(26, 31, 70, 0.9) 100%, transparent 0%),
+    url("../images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+  background-size: cover;
+}
+.footer-uls {
+  padding-bottom: 50px;
+}
+.copyright {
+  padding-bottom: 10px;
+}
+.testimonial {
+  padding-top: 50px;
+  background: whitesmoke;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+.cwrapper {
+  display: grid;
+  place-items: center;
+}
+.wrapper img {
+  border-radius: 50%;
+  padding-top: 30px;
+}
+.footer h6:hover {
+  color: turquoise;
+}
+@media (max-width: 992px) {
+  .about-img {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .about-img {
+    width: 70%;
+  }
+}
